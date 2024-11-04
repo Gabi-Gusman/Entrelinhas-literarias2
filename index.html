@@ -1,0 +1,324 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Entrelinhas Literarias 📖</title>
+  <link rel="stylesheet" href="reset.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;700&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css?family=Josefin+Sans:wght@400;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css" />
+  <link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+  <header class="cabeçalho">
+    <div class="container">
+      <input type="checkbox" id="menu" class="container__botao">
+      <label for="menu" class="container__rotulo">
+        <span class="cabeçalho__menu-hamburguer container__imagem"></span>
+      </label>
+      <ul class="lista-menu">
+        <li class="lista-menu__titulo">Categorias</li>
+        <li class="lista-menu__item">
+          <a href="#" class="lista-menu__link">+12</a>
+        </li>
+        <li class="lista-menu__item">
+          <a href="#" class="lista-menu__link">+14</a>
+        </li>
+        <li class="lista-menu__item">
+          <a href="#" class="lista-menu__link">+16</a>
+        </li>
+        <li class="lista-menu__item">
+          <a href="#" class="lista-menu__link">+18</a>
+        </li>
+        <li class="lista-menu__item">
+          <a href="#" class="lista-menu__link"></a>
+        </li>
+      </ul>
+      <img src="img/WhatsApp Image 2024-10-29 at 11.34.05.jpeg" width="160" alt="Logo da Alurabooks" class="container__imagem">
+      <h1 class="container__titulo"><b class="container__titulo--negrito">Entrelinhas</b>Literarias</h1>
+
+      <ul class="opções">
+        <input type="checkbox" id="opções-menu" class="opções__botão" />
+        <label for="opções-menu" class="opções__rotulo">
+          <li class="opções__item">Categorias</li>
+        </label>
+
+        <ul class="lista-menu">
+          <li class="lista-menu__item">
+            <a href="#" class="lista-menu__link">+12</a>
+          </li>
+          <li class="lista-menu__item">
+            <a href="#" class="lista-menu__link">+14</a>
+          </li>
+          <li class="lista-menu__item">
+            <a href="#" class="lista-menu__link">+16</a>
+          </li>
+          <li class="lista-menu__item">
+            <a href="#" class="lista-menu__link">+18</a>
+          </li>
+          <li class="lista-menu__item">
+            <a href="#" class="lista-menu__link"></a>
+          </li>
+        </ul>
+        <li class="opções__item"><a href="#" class="opções__link">Favoritos</a></li>
+        <li class="opções__item"><a href="#" class="opções__link">Minha estante</a></li>
+      </ul>
+
+    </div>
+    <div class="container">
+      <a href="#"><img src="img/Favoritos.svg" alt="Meus favoritos"
+          class="container__imagem container__imagem-transparente"></a>
+      <a href="#" class="container__link">
+        <img src="img/Compras.svg" alt="Carrinhos de compras" class="container__imagem">
+        <p class="container__texto">Minha sacola</p>
+      </a>
+      <a href="#" class="container__link">
+        <img src="img/Usuario.png" alt="Meu perfil" class="container__imagem">
+        <p class="container__texto">Meu perfil</p>
+      </a>
+    </div>
+  </header>
+
+  <section class="banner">
+    <h2 class="banner__titulo">Já sabe por onde começar?</h2>
+    <p class="banner__texto">Encontre em nossa estante o que precisa para seu desenvolvimento!</p>
+    <input type="search" class="banner__pesquisa" placeholder="Qual será sua próxima leitura?">
+  </section>
+
+  <section class="carrossel">
+    <h2 class="carrossel__titulo">Livros nacionais</h2>
+
+    <div class="carrossel__container">
+      <!-- Slider main container -->
+      <div class="swiper">
+
+        <div class="swiper-pagination"></div>
+        <!-- Additional required wrapper -->
+        <div class="swiper-wrapper">
+          <!-- Slides -->
+          <div class="swiper-slide"><img src="img/Jantar secreto.jpg"
+              alt="Livro sobre apache kafka e spring boot da alura books"></div>
+          <div class="swiper-slide"><img src="img/Livro Conectadas.jpg"
+              alt="Livro sobre liderança em design design da alura books"></div>
+          <div class="swiper-slide"><img src="img/Galera Record lançará em Novembro, O amor não é óbvio, de Elayne Baeta.jpg" alt="Livro sobre javascript assertivo da alura books">
+          </div>
+          <div class="swiper-slide">
+            <img src="img/transferir (20).jpg" alt="Livro Guia front end" />
+          </div>
+          <div class="swiper-slide">
+            <img src="img/Oxe, baby (Portuguese Edition).jpg" alt="Livro sobre portugol" />
+          </div>
+          <div class="swiper-slide">
+            <img src="img/Dias Perfeitos – Raphael Montes.jpg" alt="Livro sobre acessibilidade" />
+          </div>
+        </div>
+
+        <!-- If we need navigation buttons -->
+        <div class="swiper-button-prev"></div>
+        <div class="swiper-button-next"></div>
+
+      </div>
+
+      <div class="card">
+        <div class="card__descrição">
+          <div class="descrição">
+            <h3 class="descrição__titulo">Talvez você também se interesse por...</h3>
+            <h2 class="descrição__titulo-livro">Kindle</h2>
+            <p class="descrição__texto">
+              O Kindle permite que os usuários comprem pela internet, baixem e leiam uma ampla variedade de livros, revistas e outros materiais de leitura em formato digital. Outra vantagem é que os leitores podem ajustar o tamanho da fonte, fazer anotações e marcar páginas, como se fossem livros físicos.
+            </p>
+          </div>
+          <img src="img/kindle.jpg" class="descrição__imagem" />
+        </div>
+        <div class="card__botões">
+          <ul class="botões">
+            <li class="botões__item">
+              <img src="img/Favoritos.svg" alt="Favoritar livro" />
+            </li>
+            <li class="botões__item">
+              <img src="img/Compras.svg" alt="Adicionar no carrinho de compras" />
+            </li>
+          </ul>
+          <a href="#" class="botões__ancora">Saiba mais</a>
+        </div>
+      </div>
+    </div>
+
+  </section>
+
+  <section class=”carrossel”>
+    <h2 class="carrossel__titulo">Livros internacionais</h2>
+
+    <div class="carrossel__container">
+      <div class="swiper">
+        <!-- Additional required wrapper -->
+        <!-- If we need pagination -->
+        <div class="swiper-pagination"></div>
+
+        <div class="swiper-wrapper">
+          <!-- Slides -->
+          <div class="swiper-slide"><img src="img/Os sete maridos de Evelyn Hugo.jpg"
+              alt="Livro sobre apache kafka e spring boot da alura books"></div>
+          <div class="swiper-slide"><img src="img/Verity - Colleen Hoover ❗Clique para acessar a resenha e o link 📚.jpg" alt="Livro sobre liderança em design da alura books">
+          </div>
+          <div class="swiper-slide"><img src="img/Ela fica com a garota capa do livro book cover.jpg" alt="Livro sobre javascript assertivo da alurabooks">
+          </div>
+          <div class="swiper-slide"><img src="img/Vermelho, branco e sangue azul.jpg" alt="Livro Guia front end"></div>
+          <div class="swiper-slide"><img src="img/2_ É Assim Que Começa - Colleen Hoover.jpg" alt="Livro sobre portugol"></div>
+          <div class="swiper-slide"><img src="img/É Assim Que Acaba- Collen Hoover.jpg" alt="livro sobre acessibilidade"></div>
+        </div>
+
+        <!-- If we need navigation buttons -->
+        <div class="swiper-button-prev"></div>
+        <div class="swiper-button-next"></div>
+      </div>
+
+      <div class="card">
+        <!-- 1º linha -->
+        <div class="card__descrição">
+          <!-- 1º coluna -->
+          <div class="descrição">
+            <img src="img/Estrelinhas.png" alt="Avaliação 5 estrelas">
+            <h3 class="descrição__titulo">Autora do Mês 😊</h3>
+            <h2 class="descrição__titulo-livro">Elayne Baeta 🩷</h2>
+            <p class="descrição__texto">Elayne Baeta é uma autora brasileira que ganhou destaque por seus romances com protagonismo lésbico. Ela começou sua carreira no Wattpad com "O Amor Não É Óbvio", uma história leve e cômica sobre o relacionamento de duas adolescentes. O livro rapidamente se tornou um sucesso, levando Baeta a ser uma das autoras mais vendidas no Brasil. Além de "O Amor Não É Óbvio", ela lançou "Coisas Óbvias sobre o Amor" e "Oxe, Baby", um livro de poesias.
+
+              Baeta busca trazer diversidade à literatura juvenil com histórias LGBTQIA+ positivas e acessíveis.
+                 Aos 27 anos, ela é a autora nacional mais vendida neste ano no selo Galera, da Record. Quando se considera todo o catálogo nacional da casa, Baeta fica atrás só de Carla Madeira, de "Tudo É Rio", e Ana Maria Gonçalves, de "Um Defeito de Cor".
+            </p>
+          </div>
+          <!-- 2º coluna -->
+          <img src="img/Elayne.jpg" class="descrição__imagem">
+        </div>
+
+        <!-- 2º linha -->
+        <div class="card__botões">
+          <!-- 1º coluna -->
+          <ul class="botões">
+            <li class="botões__item"><img src="img/Favoritos.svg" alt="Favoritar livro"></li>
+            <li class="botões__item"><img src="img/Compras.svg" alt="Adicionar no carrinho de compras"></li>
+          </ul>
+          <!-- 2º coluna -->
+          <a href="#" class="botões__ancora">Saiba mais</a>
+        </div>
+      </div>
+    </div>
+
+
+  </section>
+
+  <section class="tópicos">
+    <h2 class="tópicos__titulo">TÓPICOS VISITADOS RECENTEMENTE</h2>
+    <ul class="tópicos__lista">
+      <li class="tópicos__item"><a href="#" class="tópicos__link">Terror</a></li>
+      <li class="tópicos__item">
+        <a href="#" class="tópicos__link">Suspense</a>
+      </li>
+      <li class="tópicos__item">
+        <a href="#" class="tópicos__link">Romance</a>
+      </li>
+      <li class="tópicos__item">
+        <a href="#" class="tópicos__link">Adolescentes</a>
+      </li>
+      <li class="tópicos__item">
+        <a href="#" class="tópicos__link">Infantil</a>
+      </li>
+      <li class="tópicos__item">
+        <a href="#" class="tópicos__link">Adulto</a>
+      </li>
+      <li class="tópicos__item">
+        <a href="#" class="tópicos__link">HQ</a>
+      </li>
+      <li class="tópicos__item">
+        <a href="#" class="tópicos__link">Biografia</a>
+      </li>
+    </ul>
+  </section>
+
+  <section class="contato">
+    <div class="contato__descrição">
+      <h2 class="contato__titulo">Fique por dentro das novidades!</h2>
+      <p class="contato__texto">
+        Atualizações de e-books, novos livros, promoções e outros.
+      </p>
+    </div>
+    <input type="email" placeholder="        Cadastre seu e-mail" class="contato__email">
+  </section>
+
+  <hr />
+
+  <footer class="rodapé">
+    <h2 class="rodapé__titulo">Grupo Entrelinhas Literarias ❤️</h2>
+    <ul class="lista-rodapé">
+      <li class="lista-rodapé__titulo"></li>
+      <li class="lista-rodapé__item">
+        <img src="img/galera logo.png"  width="60" alt="Logo da Caelum" />
+        <a href="#" class="lista-rodapé__link">Galera</a>
+      </li>
+      <li class="lista-rodapé__item">
+        <img src="img/logo companhia.png" width="60" alt="Logo da Casa do Código" />
+        <a href="#" class="lista-rodapé__link">Companhia das letras</a>
+      </li>
+      <li class="lista-rodapé__item">
+        <img src="img/logo rocco.png" width="60" alt="Logo da Alura" />
+        <a href="#" class="lista-rodapé__link">Rocco</a>
+      </li>
+    </ul>
+
+    <ul class="lista-rodapé">
+      <h1 class="container__titulo"><b class="container__titulo--negrito">Editoras</b></h1>
+
+      
+      
+      <li class="lista-rodapé__item">
+        <img src="img/panini.png" width="60" alt="Logo do Layers ponto Tech" />
+        <a href="#" class="lista-rodapé__link">Panini</a>
+      </li>
+      <li class="lista-rodapé__item">
+        <img src="img/alt.png" width="60" alt="Logo da Alura START" />
+        <a href="#" class="lista-rodapé__link">Alt</a>
+      </li>
+      <li class="lista-rodapé__item">
+        <img src="img/seguinte.png" width="60" alt="Logo da Music Dot" />
+        <a href="#" class="lista-rodapé__link">Seguinte</a>
+      </li>
+      
+    </ul>
+
+    <ul class="lista-rodapé">
+      <li class="lista-rodapé__titulo"></li>
+      <li class="lista-rodapé__item">
+        <img src="img/jangada.png" width="60" alt="Logo do Hipsters ponto Tech" />
+        <a href="#" class="lista-rodapé__link">Jangada</a>
+      </li>
+      <li class="lista-rodapé__item">
+        <img src="img/intrinseca.png" width="100" alt="Logo da AluraParaEmpresas" />
+        <a href="#" class="lista-rodapé__link">intrinseca</a>
+      </li>
+      <li class="lista-rodapé__item">
+        <img src="img/arqueiros.png" width="60" alt="Logo do Scuba Dev" />
+        <a href="#" class="lista-rodapé__link">Arqueiro</a>
+      </li>
+      
+    </ul>
+  </footer>
+
+  <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+  <script>
+    const swiper = new Swiper(".swiper", {
+      spaceBetween: 10,
+      slidesPerView: 3,
+      pagination: {
+        el: '.swiper-pagination',
+        type: 'bullets',
+      },
+    });
+  </script>
+</body>
+
+</html>
